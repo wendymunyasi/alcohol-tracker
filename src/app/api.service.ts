@@ -14,6 +14,8 @@ export class ApiService {
 
   baseUrl = 'https://alcohol-tracker-db-api.herokuapp.com/api/newsletter_recipients1/';
 
+  // baseUrl = 'http://127.0.0.1:8000/api/newsletter_recipients1/';
+
   constructor(
     private httpClient: HttpClient,
   ) { }
